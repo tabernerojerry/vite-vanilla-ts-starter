@@ -2,11 +2,16 @@
  * Lint Staged issue reference:
  * https://github.com/okonet/lint-staged/issues/676
  */
-const escape = require('shell-quote').quote;
+const { quote } = require('shell-quote');
 const { ESLint } = require('eslint');
 
 const eslint = new ESLint();
 const isWin = process.platform === 'win32';
+
+function escape(str) {
+  const escaped = quote(str);
+  return escaped.replace(/\\@/g, '@');
+}
 
 module.exports = {
   '**/*.{scss,css}': (filenames) => {

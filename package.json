@@ -1,0 +1,40 @@
+{
+  "name": "gis-vite-ts",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint 'src/**/*.{js,ts,json}'",
+    "lint:fix": "eslint --fix 'src/**/*.{js,ts,json}'",
+    "stylelint": "stylelint 'src/**/*.{scss,css}'",
+    "stylelint:fix": "stylelint --fix 'src/**/*.{scss,css}'",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,scss,md,html,json}' --config ./.prettierrc",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.2.5",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0",
+    "shell-quote": "^1.7.3",
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "ol": "^6.14.1"
+  }
+}

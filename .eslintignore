@@ -1,0 +1,5 @@
+node_modules
+**/dist/**
+.stylelintrc.js
+.lint-staged.config.js
+src/vite-env.d.ts

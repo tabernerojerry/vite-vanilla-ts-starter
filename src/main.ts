@@ -1,6 +1,7 @@
 import { Map, View } from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import { OSM } from 'ol/source';
+
 import './style.scss';
 
 const map = new Map({

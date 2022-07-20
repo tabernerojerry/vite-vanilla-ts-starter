@@ -31,8 +31,8 @@
     "stylelint": "^14.9.1",
     "stylelint-config-prettier-scss": "^0.0.1",
     "stylelint-config-standard-scss": "^4.0.0",
-    "typescript": "^4.5.4",
-    "vite": "^2.9.9"
+    "typescript": "^4.7.4",
+    "vite": "^3.0.2"
   },
   "dependencies": {
     "ol": "^6.14.1"

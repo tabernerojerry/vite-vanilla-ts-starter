@@ -2,10 +2,10 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    jest: true,
   },
   extends: [
     'airbnb-base',
+    'airbnb-typescript/base',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
